@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "单链表交换任意两个元素", "单链表交换任意两个元素.vcxproj", "{EF9C34CA-36B8-4E48-B167-5E8AC9F185DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF9C34CA-36B8-4E48-B167-5E8AC9F185DE}.Debug|x64.ActiveCfg = Debug|x64
+		{EF9C34CA-36B8-4E48-B167-5E8AC9F185DE}.Debug|x64.Build.0 = Debug|x64
+		{EF9C34CA-36B8-4E48-B167-5E8AC9F185DE}.Debug|x86.ActiveCfg = Debug|Win32
+		{EF9C34CA-36B8-4E48-B167-5E8AC9F185DE}.Debug|x86.Build.0 = Debug|Win32
+		{EF9C34CA-36B8-4E48-B167-5E8AC9F185DE}.Release|x64.ActiveCfg = Release|x64
+		{EF9C34CA-36B8-4E48-B167-5E8AC9F185DE}.Release|x64.Build.0 = Release|x64
+		{EF9C34CA-36B8-4E48-B167-5E8AC9F185DE}.Release|x86.ActiveCfg = Release|Win32
+		{EF9C34CA-36B8-4E48-B167-5E8AC9F185DE}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8487123C-36FB-447F-905A-EF83E6C115DF}
+	EndGlobalSection
+EndGlobal

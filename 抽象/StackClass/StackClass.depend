@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1679634982 source:d:\work\cs\c++\datastruct\exercise\hanoi\stackclass\src\stack.cpp
+	"Stack.h"
+
+1679634187 d:\work\cs\c++\datastruct\exercise\hanoi\stackclass\include\stack.h
+	<stdio.h>
+	<iostream>
+
+1679636283 source:d:\work\cs\c++\datastruct\exercise\hanoi\stackclass\main.cpp
+	<iostream>
+	"Stack.h"
+

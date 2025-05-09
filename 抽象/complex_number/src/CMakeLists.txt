@@ -1,0 +1,20 @@
+#======================================#
+# * COMPLEXNUMBER APPLICATION  *
+#======================================#
+#  path: src/CMakeLists.txt 
+#--------------------------------------#
+
+# 将当前目录下所有源码文件添加到变量 complex_number_src
+aux_source_directory(. complex_number_src)
+
+# 生成可执行文件
+add_executable(${COMPLEXNUMBER_PROJECT_NAME} ${complex_number_src})
+
+# 或者使用下面的方式
+#add_executable(${COMPLEXNUMBER_PROJECT_NAME}
+#        ${COMPLEXNUMBER_SRC_DIR}/main.cpp
+#        ${COMPLEXNUMBER_SRC_DIR}/Complex.cpp)
+
+# 头文件搜索的路径
+include_directories(${COMPLEXNUMBER_INC_DIR})
+include_directories(${CMAKE_SOURCE_DIR}/src)

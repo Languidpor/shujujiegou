@@ -1,0 +1,285 @@
+ This program is only can be used to test Splay tree.
+ --------------------------------------------------
+ Author: haifeng
+ Description:
+
+This is a Splay Tree testing program.
+The data can be stored in a file named `elements.txt`.
+For example:
+
+  1 2 2 3 3 5 6 8 8 9 11 11 14 15 16 17 17 19 19 20 22
+
+And the above data will be used if the file elements.txt does not exit.
+
+Usage: SplayTree.exe
+
+ --------------------------------------------------
+We will print the Splay tree in each step. 
+----------------------------------------------
+Input: 
+  2 3 5 7 11 13 17 19 23 29 31 37 41 
+------------------------------------------
+inserting 2
+ Level 1:	2  
+
+The tree contains 1 elements.
+------*---*---*---*---*------
+
+-------------
+inserting 3
+ Level 1:	2  
+ Level 2:	3  
+
+The tree contains 2 elements.
+------*---*---*---*---*------
+
+-------------
+inserting 5
+ Level 1:	2  
+ Level 2:	3  
+ Level 3:	5  
+
+The tree contains 3 elements.
+------*---*---*---*---*------
+
+-------------
+inserting 7
+ Level 1:	2  
+ Level 2:	3  
+ Level 3:	5  
+ Level 4:	7  
+
+The tree contains 4 elements.
+------*---*---*---*---*------
+
+-------------
+inserting 11
+ Level 1:	2  
+ Level 2:	3  
+ Level 3:	5  
+ Level 4:	7  
+ Level 5:	11  
+
+The tree contains 5 elements.
+------*---*---*---*---*------
+
+-------------
+inserting 13
+ Level 1:	2  
+ Level 2:	3  
+ Level 3:	5  
+ Level 4:	7  
+ Level 5:	11  
+ Level 6:	13  
+
+The tree contains 6 elements.
+------*---*---*---*---*------
+
+-------------
+inserting 17
+ Level 1:	2  
+ Level 2:	3  
+ Level 3:	5  
+ Level 4:	7  
+ Level 5:	11  
+ Level 6:	13  
+ Level 7:	17  
+
+The tree contains 7 elements.
+------*---*---*---*---*------
+
+-------------
+inserting 19
+ Level 1:	2  
+ Level 2:	3  
+ Level 3:	5  
+ Level 4:	7  
+ Level 5:	11  
+ Level 6:	13  
+ Level 7:	17  
+ Level 8:	19  
+
+The tree contains 8 elements.
+------*---*---*---*---*------
+
+-------------
+inserting 23
+ Level 1:	2  
+ Level 2:	3  
+ Level 3:	5  
+ Level 4:	7  
+ Level 5:	11  
+ Level 6:	13  
+ Level 7:	17  
+ Level 8:	19  
+ Level 9:	23  
+
+The tree contains 9 elements.
+------*---*---*---*---*------
+
+-------------
+inserting 29
+ Level 1:	2  
+ Level 2:	3  
+ Level 3:	5  
+ Level 4:	7  
+ Level 5:	11  
+ Level 6:	13  
+ Level 7:	17  
+ Level 8:	19  
+ Level 9:	23  
+ Level 10:	29  
+
+The tree contains 10 elements.
+------*---*---*---*---*------
+
+-------------
+inserting 31
+ Level 1:	2  
+ Level 2:	3  
+ Level 3:	5  
+ Level 4:	7  
+ Level 5:	11  
+ Level 6:	13  
+ Level 7:	17  
+ Level 8:	19  
+ Level 9:	23  
+ Level 10:	29  
+ Level 11:	31  
+
+The tree contains 11 elements.
+------*---*---*---*---*------
+
+-------------
+inserting 37
+ Level 1:	2  
+ Level 2:	3  
+ Level 3:	5  
+ Level 4:	7  
+ Level 5:	11  
+ Level 6:	13  
+ Level 7:	17  
+ Level 8:	19  
+ Level 9:	23  
+ Level 10:	29  
+ Level 11:	31  
+ Level 12:	37  
+
+The tree contains 12 elements.
+------*---*---*---*---*------
+
+-------------
+inserting 41
+ Level 1:	2  
+ Level 2:	3  
+ Level 3:	5  
+ Level 4:	7  
+ Level 5:	11  
+ Level 6:	13  
+ Level 7:	17  
+ Level 8:	19  
+ Level 9:	23  
+ Level 10:	29  
+ Level 11:	31  
+ Level 12:	37  
+ Level 13:	41  
+
+The tree contains 13 elements.
+------*---*---*---*---*------
+
+-------------
+Clone tree t to t2
+ Level 1:	2  
+ Level 2:	3  
+ Level 3:	5  
+ Level 4:	7  
+ Level 5:	11  
+ Level 6:	13  
+ Level 7:	17  
+ Level 8:	19  
+ Level 9:	23  
+ Level 10:	29  
+ Level 11:	31  
+ Level 12:	37  
+ Level 13:	41  
+
+The tree contains 13 elements.
+------*---*---*---*---*------
+
+------------------
+==================
+Test finished
+Now insert 100.
+ Level 1:	2  
+ Level 2:	3  
+ Level 3:	5  
+ Level 4:	7  
+ Level 5:	11  
+ Level 6:	13  
+ Level 7:	17  
+ Level 8:	19  
+ Level 9:	23  
+ Level 10:	29  
+ Level 11:	31  
+ Level 12:	37  
+ Level 13:	41  
+ Level 14:	100  
+
+The tree contains 14 elements.
+------*---*---*---*---*------
+
+remove 5.
+ Level 1:	2  
+ Level 2:	3  
+ Level 3:	7  
+ Level 4:	11  
+ Level 5:	13  
+ Level 6:	17  
+ Level 7:	19  
+ Level 8:	23  
+ Level 9:	29  
+ Level 10:	31  
+ Level 11:	37  
+ Level 12:	41  
+ Level 13:	100  
+
+The tree contains 13 elements.
+------*---*---*---*---*------
+
+Search 3
+------splay times : 1------
+ Level 1:	2  
+ Level 2:	3  
+ Level 3:	7  
+ Level 4:	11  
+ Level 5:	13  
+ Level 6:	17  
+ Level 7:	19  
+ Level 8:	23  
+ Level 9:	29  
+ Level 10:	31  
+ Level 11:	37  
+ Level 12:	41  
+ Level 13:	100  
+
+The tree contains 13 elements.
+------*---*---*---*---*------
+
+ Level 1:	3  
+ Level 2:	2  7  
+ Level 3:	11  
+ Level 4:	13  
+ Level 5:	17  
+ Level 6:	19  
+ Level 7:	23  
+ Level 8:	29  
+ Level 9:	31  
+ Level 10:	37  
+ Level 11:	41  
+ Level 12:	100  
+
+The tree contains 13 elements.
+------*---*---*---*---*------
+
+Search 100
+------splay times : 1------
